@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sedona</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <main class="main-index">
-      <header class="header-page">
+    <header class="header-page">
         <nav class="navigation-main">
-          <a href="index.html" class="navigation-logo"><img src="#" alt="" class="header-log" /></a>
+          <a href="index.html" class="navigation-logo"><img src="images/logo.svg" alt="Логотип сайта Седона" width="140" height="70" class="header-log" /></a>
           <ul class="navigation-list">
             <li class="navigation-item">
               <a href="#" class="navigation-link">Главная</a>
@@ -25,48 +25,51 @@
             <li class="user-item">
               <a href="" class="user-link">
                 <span class="visually-hidden">Поиск</span>
-                <img src="#" alt="" class="user-images"
+                <img src="images/icon/search.svg" alt="Поиска" width="20px" height="20px" class="user-images"
               /></a>
             </li>
             <li class="user-item">
               <a href="" class="user-link">
                 <span class="visually-hidden">Понравившееся</span>
-                <img src="#" alt="" class="user-images"
+                <img src="images/icon/heart.svg" width="20px" height="20px" alt="Сердечка" class="user-images"
               /></a>
             </li>
             <li class="user-item">
               <a href="" class="user-link">
-                <p class="user-text">Хочу сюда</p>
+                <span class="user-text user-botton">Хочу сюда</span>
                 <img src="#" alt="" class="user-images"
               /></a>
             </li>
           </ul>
         </nav>
       </header>
+    <main class="main-index">
       <section class="hero">
         <h2 class="visually-hidden"></h2>
-        <img src="#" alt="" class="hero-images" />
+        <img src="images/welcome.svg" width="458px" height="352" alt="Welcome to Sedona" class="hero-images" />
       </section>
       <section class="about-sedona">
         <h1 class="about-title">
-          Седона — небольшой городок в Аризоне, заслуживающий большего!
+          Седона — небольшой городок в Аризоне, <br> заслуживающий большего!
         </h1>
         <h2 class="about-subtitle">
           Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
         </h2>
+        
       </section>
       <section class="advantages">
         <h2 class="visually-hidden">Приимушество и описание города Седоны</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
-            <div class="advantages-wrapper">
+            <div class="advantages-wrapper advantages-bground-blau">
               <h3 class="advantages-title">Настоящий городок</h3>
+              <div class="advantages-lihne"></div>
               <p class="advantages-text">
                 Седона — не аттракцион для туристов, там течёт своя жизнь
               </p>
             </div>
             <img
-              src=""
+              src="images/photo-1.jpg" width="800px" height="385px"
               alt="Верхнего части центра города с изображение Гостинец и Гор"
               class="advantages-images"
             />
@@ -74,27 +77,31 @@
           <li class="advantages-item">
             <div class="advantages-wrapper">
               <h3 class="advantages-title">Небольшая площадь</h3>
+              <div class="advantages-lihne"></div>
               <p class="advantages-text">
                 Все достопримечательности находятся очень близко
               </p>
             </div>
-            <div class="advantages-wrapper">
+            <div class="advantages-wrapper advantages-bgraund-grey">
               <h3 class="advantages-title">Красивая дорога</h3>
+              <div class="advantages-lihne"></div>
               <p class="advantages-text">
                 Ехать в Седону из Лас-Вегаса совсем не скучно!
               </p>
             </div>
             <div class="advantages-wrapper">
               <h3 class="advantages-title">Мало туристов</h3>
+              <div class="advantages-lihne"></div>
               <p class="advantages-text">
                 Большинство едет в Гранд Каньон и толпится там
               </p>
             </div>
           </li>
           <li class="advantages-item">
-            <img src="" alt="Каньонов и Гор" class="advantages-images" />
-            <div class="advantages-wrapper">
+            <img src="images/photo-2.jpg" width="800px" height="385px" alt="Каньонов и Гор" class="advantages-images" />
+            <div class="advantages-wrapper advantages-bground-blau">
               <h3 class="advantages-title">Там есть мост дьявола</h3>
+              <div class="advantages-lihne"></div>
               <p class="advantages-text">
                 Да, по нему можно пройти! Если вы осмелитесь, разумеется
               </p>
@@ -114,21 +121,21 @@
         </h2>
         <ul class="recommendations-list">
           <li class="recommendations-items">
-            <img src="" alt="Гостиницы" class="recommendations-images" />
+            <img src="images/icon/house.svg" width="75px" height="72px" alt="Гостиницы" class="recommendations-images" />
             <h3 class="recommendations-title">Жильё</h3>
             <p class="recommendations-text">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </li>
-          <li class="recommendations-items">
-            <img src="" alt="Еда" class="recommendations-images" />
+          <li class="recommendations-items recommendations-bground-normal">
+            <img src="images/icon/food.svg" width="75px" height="72px" alt="Еда" class="recommendations-images" />
             <h3 class="recommendations-title">Еда</h3>
             <p class="recommendations-text">
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
           <li class="recommendations-items">
-            <img src="" alt="Подарки" class="recommendations-images" />
+            <img src="images/icon/gift.svg" width="75px" height="72px" alt="Подарки" class="recommendations-images" />
             <h3 class="recommendations-title">Сувениры</h3>
             <p class="recommendations-text">
               Не только китайского, но и настоящего местного производства!
@@ -139,10 +146,10 @@
       <section class="questions">
         <h2 class="questions-title">Заинтересовались?</h2>
         <p class="questions-text">
-          Укажите предполагаемые даты поездки,и мы покажем вам лучшие
+          Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <a href="#" class="questions-link">Поиск гостиницы В седоне</a>
+        <a href="#" class="questions-link user-botton">Поиск гостиницы В седоне</a>
       </section>
       <section class="appointment">
         <h2 class="appointment-title">Подпишитесь на рассылку</h2>
@@ -171,9 +178,9 @@
       <section class="footer-social">
         <h2 class="visually-hidden">социальные сети города Седона</h2>
         <ul class="footer-list">
-          <li class="footer-item"><a href="#" class="footer-link"><span class="visually-hidden"></span><img src="" alt="" class="footer-images"></a></li>
-          <li class="footer-item"><a href="#" class="footer-link"><span class="visually-hidden"></span><img src="" alt="" class="footer-images"></a></li>
-          <li class="footer-item"><a href="#" class="footer-link"><span class="visually-hidden"></span><img src="" alt="" class="footer-images"></a></li>
+          <li class="footer-item"><a href="#" class="footer-link"><span class="visually-hidden">Вконтакте</span><img src="images/icon/social-vk.svg" width="24px" height="14px" alt="Vkontakte" class="footer-images"></a></li>
+          <li class="footer-item"><a href="#" class="footer-link"><span class="visually-hidden">Телеграм</span><img src="images/icon/social-telegram.svg" width="18px" height="16px" alt="Telegram" class="footer-images"></a></li>
+          <li class="footer-item"><a href="#" class="footer-link"><span class="visually-hidden">Ютюбь</span><img src="images/icon/social-youtube.svg" width="22px" height="18px" a0lt="Youtube" class="footer-images"></a></li>
         </ul>
       </section>
       <section class="footer-contacts">
@@ -182,7 +189,7 @@
       </section>
       <section class="footer-logo">
         <span class="visually-hidden">Логотип сайта Седоны</span>
-        <img src="" alt="Логотипа" class="footer-logo-image">
+        <img src="images/htmlacademy.svg" width="115px" height="33px" alt="Логотипа" class="footer-logo-image">
       </section>
     </footer>
   </body>
