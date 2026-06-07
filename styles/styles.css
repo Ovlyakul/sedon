@@ -55,6 +55,9 @@ body {
   line-height: 26px;
   color: #333333;
   margin: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main-index {
@@ -96,6 +99,7 @@ img {
 .navigation-link,
 .user-link {
   color: inherit;
+  text-decoration: none;
 }
 
 .user-botton {
@@ -111,9 +115,37 @@ img {
   text-decoration: none;
 }
 
+.navigation-list {
+  margin-left: 70px;
+  padding-left: 0;
+}
+.user-list {
+  margin-right: 70px;
+}
+
 .user-link {
   text-decoration: none;
 }
+
+.navigation-logo {
+  margin-left: 70px;
+}
+
+.navigation-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation-list,
+.user-list {
+  display: flex;
+}
+
+.navigation-item,
+.user-item {
+  padding: 20px 16px;
+}
+
 .hero {
   padding: 52px 0 82px 0;
   background-color: #acceec;
@@ -197,6 +229,26 @@ img {
   text-align: center;
 }
 
+.advantages-list {
+  padding: 0;
+}
+
+.advantages-images {
+  margin: 0;
+}
+
+.advantages-wrapper {
+  width: 400px;
+  height: 385px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.advantages-item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .advice-title {
   font-weight: 700;
   font-size: 30px;
@@ -266,7 +318,7 @@ img {
   border-radius: 0 4px 4px 0;
   padding: 8px 50px;
   width: 232px;
-  height: 52px;
+  height: 56px;
   background: var(--buttons-second);
   font-weight: 700;
   font-size: 20px;
@@ -410,3 +462,121 @@ fieldset {
 	color: var(--texts-texts-basic);
 	background-image: none;
 } */
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 117%;
+  text-transform: uppercase;
+  margin-top: 120px;
+}
+
+.advantages-lihne {
+  margin-top: 30px;
+}
+
+.advantages-text {
+  width: 230px;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 117%;
+}
+
+.advice-title {
+  max-width: 505px;
+  font-size: 30px;
+  line-height: 120%;
+}
+
+.advice-text {
+  margin-top: 20px;
+}
+
+.recommendations-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  height: 400px;
+  text-align: center;
+}
+
+.recommendations-items {
+  padding: 81px 80px;
+}
+
+.recommendations-title,
+.recommendations-text {
+  margin-top: 30px;
+}
+
+.recommendations-text {
+  font-style: 16px;
+}
+
+.questions-text {
+  margin-top: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 118%;
+  text-align: center;
+  color: var(--texts-second);
+  margin-bottom: 54px;
+}
+
+.questions .questions-link {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--texts-background-deafault);
+  padding: 8px 50px;
+}
+
+.appointment {
+  padding-bottom: 104px;
+}
+
+.appointment-title {
+  padding-top: 96px;
+}
+
+.appointment-text {
+  margin-top: 20px;
+}
+.appointment-form-date {
+  display: inline;
+  margin: 0;
+}
+
+.appointment-form-date input {
+  padding: 14px 345px 14px 20px;
+}
+
+.appointment-form {
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 70px;
+}
+
+.footer-list {
+  padding: 0;
+  display: flex;
+}
+
+.footer-tell {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--texts-texts-basic);
+}
